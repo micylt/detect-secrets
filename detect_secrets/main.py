@@ -12,6 +12,7 @@ from detect_secrets.core.log import log
 from detect_secrets.core.usage import ParserBuilder
 from detect_secrets.plugins.common import initialize
 
+print("hello from test")
 
 def parse_args(argv):
     return ParserBuilder().add_console_use_arguments() \
